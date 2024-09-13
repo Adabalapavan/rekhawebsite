@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+<body>
+    
+       <!-- header design  -->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- home section design  -->
+ <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Rekha Sri</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>And I have completed my B.tech in rgukt IIIT college, 
+            NUzvid with score of 8.7 CGPA.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+         </div>
+
+         <div class="home-img">
+            <img src="image/rekha.jpg" alt="">
+         </div>
+    </section>
+
+     <!-- about section design  -->
+      <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/rekha.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>ML Engineer!</h3>
+            <p>I'm an experienced Machine Learning Engineer with a specialized focus on deep learning, dedicated 
+                to pushing the boundaries of what's possible with AI. My expertise lies in deep learning architectures, 
+                including convolutional neural networks (CNNs),
+                 recurrent neural networks (RNNs), transformers, and generative adversarial networks (GANs).</p>
+                 <a href="#" class="btn">Read More</a>
+         </div>
+      </section>
+
+      <!-- skills section design  -->
+       <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="fa-solid fa-c fa-shake"></i>
+                <h3>C Language</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-brands fa-python fa-beat-fade"></i>
+                <h3>Python Developer</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-sharp-duotone fa-solid fa-gear fa-spin"></i>
+                <h3>Machine Learning</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-brain fa-fade"></i>
+                <h3>Deep Learning</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-sim-card fa-fade"></i>
+                <h3>Multisim</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-circle-nodes fa-fade"></i>
+                <h3>LTspice</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-microchip fa-beat"></i>
+                <h3>Verilog HDL</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa-solid fa-infinity fa-beat"></i>
+                <h3>Arduino</h3>
+            </div>
+        </div>
+       </section>
+
+       <!-- projects secction design  -->
+          <section class="projects" id="projects">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+
+            <div class="projects-container">
+                <div class="projects-box">
+                    <img src="image/pp2.jpg" alt="">
+                    <div class="projects-layer">
+                        <h4>DETECT THE WATER QUALITY IN WATER TANKS</h4>
+                        <P>Water quality monitoring can utilize Arduino,TDS sensors, temperature sensors, 
+                            and buzzers to prevent consumption of contaminated water.</P>
+                    </div>
+                </div>
+
+                
+                    <div class="projects-box">
+                        <img src="image/pp3.jpg" alt="">
+                        <div class="projects-layer">
+                            <h4>MULTI ORGAN SEGMENTATION USING ADVANCED 
+                                CONVOLUTION NEURAL NETWORK AND 
+                                TVERSKY LOSS FUNCTION</h4>
+                            <P>Improving CT liver, retina, and lung segmentation accuracy using a modified Tversky loss
+                                 function in deep learning to enhance diagnostic precision and patient care</P>
+                        </div>
+                    </div>
+
+                    
+                        <div class="projects-box">
+                            <img src="image/pp1.jpg" alt="">
+                            <div class="projects-layer">
+                                <h4>SIGNBOARD TRANSLATION FROM VERNACULAR LANGUAGE</h4>
+                                <P>The project aims to translates text from signboards Into one to another languages using deep learning. 
+                                    Initially focusing on translating names (e.g., road, city, shop names) into Hindi to English language vice verse. 
+                                    This app enhances travelers' 
+                                    experiences in India by overcoming language barriers and promoting better regional understanding</P>
+                            </div>
+                        </div>
+
+            </div>
+          </section>
+
+          <!-- contact section design  -->
+           <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+           </section>
+
+           <!-- footer section design  -->
+            <footer class="footer">
+                <div class="footer-text">
+                    <p>Copyright &copy; 2024 by Pavan Adabala | All Rights Reserved.</p>
+                </div>
+
+                <div class="footer-icontop">
+                    <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+            </footer>
+
+       <script src="https://kit.fontawesome.com/657c907cff.js" crossorigin="anonymous"></script>
+
+
+       <!-- scroll reveal design  -->
+       <script src="https://unpkg.com/scrollreveal"></script>
+
+       <!-- typed.js design  -->
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+       <!-- custom script desing  -->
+        <script src="script.js"></script>
+</body>
+</html>
